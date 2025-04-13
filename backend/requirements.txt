@@ -1,0 +1,50 @@
+# fastapi==0.104.0
+# uvicorn==0.23.2
+# python-multipart==0.0.6
+# openai-whisper==20231117
+# langchain==0.0.335
+# deepseek-ai==0.0.1
+# sqlite3==3.35.0
+# fpdf==1.7.2
+# pydantic==2.4.2
+
+
+# fastapi==0.104.0
+# uvicorn==0.23.2
+# python-multipart==0.0.6
+# # Using whisper from OpenAI alternatives
+# faster-whisper==0.9.0
+# langchain==0.0.335
+# langchain-community==0.0.13
+# # Replace deepseek-ai with something more compatible
+# transformers==4.37.2
+# torch
+# # sqlite3 is part of Python standard library, no need to install
+# fpdf==1.7.2
+# pydantic==2.4.2
+
+
+
+
+
+
+
+# Core web framework
+FastAPI
+uvicorn==0.23.2
+python-multipart==0.0.6
+
+# PDF generation
+fpdf==1.7.2
+
+# Data validation
+pydantic==2.4.2
+
+# CORS support for FastAPI
+starlette==0.27.0
+
+# HTTP client for Python
+requests==2.31.0
+
+# For handling JSON
+simplejson==3.19.2

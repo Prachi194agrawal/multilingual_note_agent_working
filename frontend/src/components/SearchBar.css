@@ -1,0 +1,28 @@
+.search-bar {
+    flex: 1;
+    max-width: 500px;
+    margin-left: 2rem;
+  }
+  
+  .search-bar form {
+    display: flex;
+  }
+  
+  .search-input {
+    flex: 1;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    font-size: 1rem;
+  }
+  
+  .search-button {
+    background-color: #344a5e;
+    color: white;
+    border-radius: 0 4px 4px 0;
+    padding: 0.5rem 1rem;
+  }
+  
+  .search-button:hover {
+    background-color: #2c3e50;
+  }

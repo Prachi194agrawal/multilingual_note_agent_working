@@ -1,0 +1,59 @@
+.upload-form {
+    padding: 1.5rem;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .file-input-container {
+    margin-bottom: 1rem;
+  }
+  
+  .file-input-label {
+    display: block;
+    padding: 0.75rem;
+    background-color: #f8f9fa;
+    border: 1px dashed #ced4da;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  
+  .file-input-label:hover {
+    background-color: #e9ecef;
+  }
+  
+  .file-input {
+    display: none;
+  }
+  
+  .upload-button {
+    width: 100%;
+    background-color: #3498db;
+    color: white;
+    padding: 0.75rem;
+    font-weight: 600;
+  }
+  
+  .upload-button:hover {
+    background-color: #2980b9;
+  }
+  
+  .upload-button:disabled {
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+  }
+  
+  .supported-formats {
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    color: #7f8c8d;
+  }
+  
+  .error-message {
+    color: #e74c3c;
+    margin-top: 0.5rem;
+    text-align: center;
+  }
